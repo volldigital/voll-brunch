@@ -1,4 +1,4 @@
-# Brunch + Babel/ES6 + pug + postcss/autoprefixer
+# Brunch + Babel/ES6 + pugjs + postcss/autoprefixer
 
 This is a modern JS skeleton for [Brunch](http://brunch.io).
 
