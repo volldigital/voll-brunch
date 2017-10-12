@@ -10,5 +10,19 @@ exports.files = {
 };
 
 exports.plugins = {
-  babel: {presets: ['latest']}
+  pug: {
+    basedir: 'app',
+    inlineRuntimeFunctions: true,
+    doctype: 'html',
+    staticPretty: true,
+  },
+  postcss: {
+    processors: [
+      require('autoprefixer')(['last 8 versions']),
+      require('csswring')()
+    ]
+  },
+  babel: {
+    presets: ['env']
+  },
 };
