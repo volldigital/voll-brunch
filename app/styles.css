@@ -1,6 +1,8 @@
-.brunch {
-  font-family: -apple-system, Sans-Serif;
-  text-align: center;
-  font-size: 24pt;
-  color: #3f894a;
-}
+@import 'reset-css/reset';
+
+/* Base Imports */
+@import 'css/base/_base';
+@import 'css/base/_breakpoints';
+@import 'css/base/_colors';
+@import 'css/base/_variables';
+@import 'css/base/_typo';

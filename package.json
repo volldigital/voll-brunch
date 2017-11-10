@@ -9,7 +9,9 @@
     "start": "brunch watch --server",
     "build": "brunch build --production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "reset-css": "^2.2.0"
+  },
   "devDependencies": {
     "auto-reload-brunch": "^2",
     "autoprefixer": "^7.1.5",
@@ -19,7 +21,11 @@
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "csswring": "^6.0.1",
+    "postcss-apply": "^0.8.0",
     "postcss-brunch": "^2.1.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-import": "^10.0.0",
     "pugjs-brunch": "^2.10.0",
     "uglify-js-brunch": "^2"
   }

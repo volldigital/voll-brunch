@@ -18,7 +18,10 @@ exports.plugins = {
   },
   postcss: {
     processors: [
-      require('autoprefixer')(['last 8 versions']),
+      require('postcss-import')(),
+      require('postcss-apply')(),
+      require('postcss-custom-media')(),
+      require("postcss-cssnext")(["last 3 versions"]),
       require('csswring')()
     ]
   },
