@@ -1,10 +1,10 @@
 /* Breakpoints */
-@custom-media --phone-small  (max-width : 320px);
-@custom-media --phone-wide   (max-width : 480px);
-@custom-media --phablet      (max-width : 560px);
-@custom-media --tablet-small (max-width : 640px);
-@custom-media --tablet       (max-width : 768px);
-@custom-media --tablet-wide  (max-width : 1024px);
-@custom-media --desktop      (max-width : 1250px);
-@custom-media --desktop-wide (max-width : 1440px);
-@custom-media --desktop-huge (max-width : 1680px);
+@custom-media --phone-small     (max-width : 320px);
+@custom-media --phone           (max-width : 480px);
+@custom-media --phone-wide      (max-width : 560px);
+@custom-media --tablet-small    (max-width : 640px);
+@custom-media --tablet          (max-width : 768px);
+@custom-media --tablet-wide     (max-width : 1024px);
+@custom-media --desktop-small   (max-width : 1250px);
+@custom-media --desktop         (max-width : 1440px);
+@custom-media --desktop-wide    (max-width : 1680px);
