@@ -25,6 +25,7 @@
     "postcss-brunch": "^2.1.0",
     "postcss-cssnext": "^3.0.2",
     "postcss-custom-media": "^6.0.0",
+    "postcss-extend": "^1.0.5",
     "postcss-import": "^10.0.0",
     "pugjs-brunch": "^2.10.0",
     "uglify-js-brunch": "^2"

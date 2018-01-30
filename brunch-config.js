@@ -22,6 +22,7 @@ exports.plugins = {
       require('postcss-apply')(),
       require('postcss-custom-media')(),
       require("postcss-cssnext")(["last 3 versions"]),
+      require("postcss-extend")(),
       require('csswring')()
     ]
   },
