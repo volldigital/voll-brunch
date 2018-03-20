@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+  // Head
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no")
+    title VOLL Brunch
+    link(rel="stylesheet" href="/app.css")
+
+  // Body
+  body
+
+    // Page Content
+    block content
+
+    //- Scripts
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    script.
+      WebFont.load({
+        monotype: { projectId: '24335967-8854-4874-98bb-c43a32932145' }
+      });
+
+    script(src="/vendor.js")
+    script(src="/app.js")
+    script.
+      require('index')
