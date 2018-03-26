@@ -13,11 +13,13 @@ html(lang="en")
     // Page Content
     block content
 
-    //- Scripts
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    //- Web Font
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     script.
       WebFont.load({
-        monotype: { projectId: '24335967-8854-4874-98bb-c43a32932145' }
+        google: {
+          families: ['Oswald:300,400,500,600', 'Montserrat:100,300,500,600']
+        }
       });
 
     script(src="/vendor.js")

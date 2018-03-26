@@ -1,4 +1,4 @@
-@import 'reset-css/reset';
+@import 'normalize.css/normalize';
 
 /* Base Imports */
 @import 'css/base/_base';

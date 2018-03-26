@@ -10,24 +10,24 @@
     "build": "brunch build --production"
   },
   "dependencies": {
-    "reset-css": "^2.2.0"
+    "normalize.css": "^8.0.0"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",
-    "autoprefixer": "^7.1.5",
+    "autoprefixer": "^7.2.6",
     "babel-brunch": "~6.0",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-latest": "^6",
-    "brunch": "^2",
+    "brunch": "^2.10.12",
     "clean-css-brunch": "^2",
-    "csswring": "^6.0.1",
+    "csswring": "^6.0.3",
     "postcss-apply": "^0.8.0",
     "postcss-brunch": "^2.1.0",
-    "postcss-cssnext": "^3.0.2",
+    "postcss-cssnext": "^3.1.0",
     "postcss-custom-media": "^6.0.0",
     "postcss-extend": "^1.0.5",
     "postcss-import": "^10.0.0",
-    "pugjs-brunch": "^2.10.0",
+    "pugjs-brunch": "^2.10.2",
     "uglify-js-brunch": "^2"
   }
 }
